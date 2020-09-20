@@ -19,27 +19,27 @@ namespace Assignment_1___Caculator_2
                 string str2 = Console.ReadLine();
                 int num2 = Convert.ToInt32(str2);
 
-                Console.WriteLine("---selection---\nEnter + to run Addition.\nEnter - to run Subtraction.\nEnter * to run Multiplication,\nEnter / to run Division.");
+                Console.WriteLine("---selection---\nEnter 1 to run Addition.\nEnter 2 to run Subtraction.\nEnter 3 to run Multiplication,\nEnter 4 to run Division.");
                 string UserInput = Console.ReadLine();
 
                 switch (UserInput)
                 {
-                    case "+":
+                    case "1":
                         Console.WriteLine("result is:" + (num1 + num2));
                         Console.ReadKey();
                         break;
 
-                    case "-":
+                    case "2":
                         Console.WriteLine("result is:" + (num1 - num2));
                         Console.ReadKey();
                         break;
 
-                    case "*":
+                    case "3":
                         Console.WriteLine("result is:" + (num1 * num2));
                         Console.ReadKey();
                         break;
 
-                    case "/":
+                    case "4":
 
                         if (num1 == 0 || num2 == 0)
                         {
